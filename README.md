@@ -47,12 +47,12 @@ Requires Unity 2019.1+ with .NET 4.x+ Runtime
 using WebsocketsObserver;
 using WebsocketsObserver.Request;
 
-public class CalculateResponse : IServerMessage
+public struct CalculateResponse : IServerMessage
 {
     public int Result { get; set; }
 }
 
-public class CalculateRequest : IClientRequest
+public struct CalculateRequest : IClientRequest
 {
     public int[] Numbers { get; set; }
 }
@@ -63,7 +63,7 @@ public class Test : MonoBehaviour
     {
         var observerInstance = SingletonWebsocketsObserver.Instance;
 
-        observerInstance.RegisterHandler<CalculateResponse>(OnCalculated);
+        observerInstance.RegisterHandler(OnCalculated);
         observerInstance.SendRequest(new CalculateRequest
         {
             Numbers = new int[2] { 2, 2 }
