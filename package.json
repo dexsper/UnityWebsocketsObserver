@@ -1,0 +1,35 @@
+﻿{
+  "name": "com.dexsper.websocketobserver",
+  "version": "0.1.1",
+  "description": "This is a websocket wrapper for Unity designed to process JSON messages in the \"handler\" way",
+  "license": "MIT License",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dexsper/UnityWebsocketsObserver.git"
+  },
+  "author": {
+    "name": "Dexsper",
+    "email": "dexsperpro@gmail.com",
+    "url": "https://github.com/dexsper"
+  },
+  "keywords": [
+    "websocket",
+    "websockets",
+    "websockets observer"
+  ],
+  "displayName": "Unity Websockets Observer",
+  "unity": "2019.1",
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.endel.nativewebsocket"
+      ]
+    }
+  ],
+  "dependencies": {
+    "com.endel.nativewebsocket": "1.1.4",
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  }
+}
