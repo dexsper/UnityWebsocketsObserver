@@ -1,0 +1,14 @@
+{
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.endel.nativewebsocket"
+      ]
+    }
+  ],
+  "dependencies": {
+    "com.endel.nativewebsocket": "1.1.4"
+  }
+}
