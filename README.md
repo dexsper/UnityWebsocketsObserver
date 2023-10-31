@@ -8,6 +8,13 @@ The observer-handlers approach is used, like in FastAPI and Aiogram it's allows 
 ## Installation
 Requires Unity 2019.1+ with .NET 4.x+ Runtime
 
+### Install via UPM (Unity Package Manager)
+1. Open Unity
+2. Open Package Manager Window
+3. Click Add Package From Git URL
+4. Enter URL: ```https://github.com/endel/NativeWebSocket.git#upm```
+5. Repert with URL: ```https://github.com/dexsper/UnityWebsocketsObserver.git```
+   
 ### Install manually
 1. Download this project
 2. Copy the sources from WebsocketsObserver into your Assets directory.
