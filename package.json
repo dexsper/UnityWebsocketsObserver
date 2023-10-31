@@ -18,18 +18,5 @@
     "websockets observer"
   ],
   "displayName": "Unity Websockets Observer",
-  "unity": "2019.1",
-  "scopedRegistries": [
-    {
-      "name": "package.openupm.com",
-      "url": "https://package.openupm.com",
-      "scopes": [
-        "com.endel.nativewebsocket"
-      ]
-    }
-  ],
-  "dependencies": {
-    "com.endel.nativewebsocket": "1.1.4",
-    "com.unity.nuget.newtonsoft-json": "3.2.1"
-  }
+  "unity": "2019.1"
 }
