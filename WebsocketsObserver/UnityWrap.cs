@@ -1,6 +1,5 @@
 ﻿using NativeWebSocket;
 using UnityEngine;
-using Zenject;
 
 namespace WebsocketsObserver
 {
@@ -21,11 +20,12 @@ namespace WebsocketsObserver
         }
     }
 
+    /*
     public class ZenjectWebsocketsObserver : WebsocketsObserver, ITickable
     {
         [Inject]
         public ZenjectWebsocketsObserver(WebSocket websocket) : base(websocket)
         {
         }
-    }
+    }*/
 }
