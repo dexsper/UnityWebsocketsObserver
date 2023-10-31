@@ -1,7 +1,7 @@
 {
   "name": "com.dexsper.websocketobserver",
   "version": "0.1.1",
-  "description": "This is a websocket wrapper for Unity designed to process JSON messages in the \"handler\" way",
+  "description": "This is a websocket wrapper for Unity designed to process JSON messages in the handler way",
   "license": "MIT License",
   "repository": {
     "type": "git",
